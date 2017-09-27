@@ -6,7 +6,7 @@ using namespace std;
 
 int main(){
 	vector<int> v(5);
-    vector<int> res;
+    	vector<int> res;
 	v[0] = 0;
 	v[1] = 1;
 	v[2] = 2;

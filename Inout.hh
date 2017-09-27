@@ -49,7 +49,7 @@ class Inout{
             copy(istream_iterator<T>(fe),istream_iterator<T>(), back_inserter(v_ret) );
             fe.clear();
             fe.getline(s,128);
-            cout << s << endl;
+            // cout << s << endl;
             
             return v_ret;
         }
