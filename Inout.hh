@@ -2,7 +2,6 @@
 	@brief Classe Inout
 */
 
-
 #ifndef INOUT_HH
 #define INOUT_HH
 
@@ -13,7 +12,6 @@
 #include <string>
 #include <iterator>
 
-
 using namespace std;
 
 template <class T>
@@ -21,13 +19,8 @@ class Inout{
 
 	private:
 
-
 	public:
-/*
-		Inout();
 
-		~Inout();
-*/
         void Guardar(string Nom_Conjunt, vector<T>& conjunt){
             //fstream fs("prueba.dat", ios::out | ios::trunc | ios::binary);
             ofstream fs("Estat.txt"); 
@@ -36,7 +29,6 @@ class Inout{
                 fs << conjunt[i] << endl;
             }
             fs << "EOS" << endl; //End of Set
-            //fs << "Això no hauria de sortir" << endl;
             fs.close();
         }
 
@@ -54,7 +46,7 @@ class Inout{
             return v_ret;
         }
 
-        vector<vector<T>> Carregar_Programa();
+        vector<vector<T>> Carregar_Programa();//Futura funcio per carregar tota una xarxa neuronal. De moment no te implementacio.
 
 };
 #endif
