@@ -3,7 +3,7 @@
 #include "Inout.hh"
 
 using namespace std;
-//
+
 int main(){
 	vector<int> v(5);
     	vector<int> res;
