@@ -29,6 +29,7 @@ class Inout{
                 fs << conjunt[i] << endl;
             }
             fs << "EOS" << endl; //End of Set
+	     //Ready to read multiple sets of data at once. All sets must have the same Type T.
             fs.close();
         }
 
@@ -41,7 +42,6 @@ class Inout{
             copy(istream_iterator<T>(fe),istream_iterator<T>(), back_inserter(v_ret) );
             fe.clear();
             fe.getline(s,128);
-            // cout << s << endl;
             
             return v_ret;
         }
