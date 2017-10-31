@@ -14,7 +14,6 @@ int main(){
 	v[4] = 4;
 
     string s = "Numeros";
- //test    
     Inout<int> io;
 	io.Guardar(s, v);//Store set of data in file
 	res = io.Carregar(s);//Load set of data in a vector
