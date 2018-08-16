@@ -1,4 +1,10 @@
 # Gestor-Entrada-Sortida
+DEPENDENCIES
+1. G++
+2. Makefile
+
+
+
 Just a simple "save and load" library for my neural nets. Template style for the chills.
 
 The library itself is the .hh file. 
