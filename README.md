@@ -14,20 +14,20 @@ Compile the project using the Makefile:
 
 The test.cc it's just a validation file. 
 Running the test: 
-``` ./Inout.exe  ```
-If done properly you should see the following:
+``` ./Inout.exe  ```  
+If done properly you should see the following: 
 
-Numeros
-0
-1
-2
-3
-4
+Numeros  
+0  
+1  
+2  
+3  
+4  
 
 Meaning it has stored the set of number called "Numeros" in a file called Estat.txt, and later on it has loaded the set reading from the file and dumping it up in the standard output channel
 
 ## TODO:
-[X] Read Function
-[X] Write Function
-[ ] Save/Load full neural net
+[X] Read Function  
+[X] Write Function  
+[ ] Save/Load full neural net  
 
