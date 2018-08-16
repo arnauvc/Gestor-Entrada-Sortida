@@ -14,7 +14,9 @@ Compile the project using the Makefile:
 
 The test.cc it's just a validation file. 
 Running the test: 
-``` ./Inout.exe  ```  
+```sh    
+ ./Inout.exe
+```  
 If done properly you should see the following: 
 
 Numeros  
