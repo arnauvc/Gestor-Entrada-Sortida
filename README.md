@@ -9,13 +9,15 @@
 Just a simple "save and load" library for my neural nets. Template style for the chills.
 
 The library itself is the .hh file. 
-Compile the project using the Makefile:
-``` make ```
+Compile the project using the Makefile:  
+```sh  
+$  make  
+```  
 
 The test.cc it's just a validation file. 
 Running the test: 
 ```sh    
- ./Inout.exe
+$  ./Inout.exe
 ```  
 If done properly you should see the following: 
 
