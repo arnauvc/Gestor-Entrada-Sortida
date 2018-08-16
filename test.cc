@@ -6,12 +6,12 @@ using namespace std;
 
 int main(){
 	vector<int> v(5);
-    	vector<int> res;
 	v[0] = 0;
 	v[1] = 1;
 	v[2] = 2;
 	v[3] = 3;
 	v[4] = 4;
+	vector<int> res;
 
     string s = "Numeros";
     Inout<int> io;
