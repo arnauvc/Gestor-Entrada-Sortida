@@ -27,7 +27,7 @@ Numeros
 Meaning it has stored the set of number called "Numeros" in a file called Estat.txt, and later on it has loaded the set reading from the file and dumping it up in the standard output channel
 
 ## TODO:
-[X] Read Function  
-[X] Write Function  
-[ ] Save/Load full neural net  
+- [x] Read Function  
+- [x] Write Function  
+- [ ] Save/Load full neural net  
 
